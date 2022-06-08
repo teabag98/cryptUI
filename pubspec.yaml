@@ -29,7 +29,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+    #used for mediaqueries// navigation
   get: ^4.6.5
+
+ # rsize textfield according to screen size
+  auto_size_text: ^3.0.0
+
+  #enable use of hexolor codes
+  hexcolor: ^2.0.7
+
+  #svg rrenderer
+  flutter_svg: ^1.1.0
+
+
 
 
   # The following adds the Cupertino Icons font to your application.
