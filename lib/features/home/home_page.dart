@@ -266,6 +266,43 @@ class _HomePageState extends State<HomePage> {
                               right: 8.0, left: 8.0, top: 20, bottom: 20),
                           radius: 20,
                           color: AppColors.cryptoCyan,
+                        ),
+                        _columnSizer(height: 25),
+                        Row(
+                          children: [
+                            const AutoSizeText(
+                              "Trusted by 2B+ people",
+                              minFontSize: 25,
+                              textAlign: TextAlign.center,
+                              maxLines: 3,
+                              style: TextStyle(
+                                color: Colors.grey,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                            Container(
+                              padding: const EdgeInsets.all(8.0),
+                              color: Colors.green,
+                              child: const Text(
+                                "4.9/5",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w100,
+                                ),
+                              ),
+                            ),
+                            const Icon(
+                              Icons.star,
+                              color: Colors.green,
+                            ),
+                            const AutoSizeText(
+                              "Trust Pilot",
+                              style: TextStyle(
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.bold),
+                              maxFontSize: 10,
+                            )
+                          ],
                         )
                       ],
                     ),
