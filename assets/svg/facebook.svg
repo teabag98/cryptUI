@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 6 Copy 2</title>
+    <defs>
+        <polygon id="path-1" points="0 0 20.7276031 0 20.7276031 20.6016546 0 20.6016546"></polygon>
+    </defs>
+    <g id="Personal-Pages-+-PH" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PERSONAL-PAGE" transform="translate(-128.000000, -1040.000000)">
+            <g id="Group-6-Copy-2" transform="translate(128.000000, 1040.000000)">
+                <rect id="Rectangle" stroke="#FFFFFF" opacity="0.400000006" x="0.5" y="0.5" width="35" height="35" rx="4"></rect>
+                <g id="Group-3" transform="translate(7.636198, 7.699173)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M10.3638015,0 C4.64002779,0 0,4.64002779 0,10.3638015 C0,15.5366745 3.78989244,19.8242116 8.74445755,20.6016586 L8.74445755,13.3595879 L6.11302357,13.3595879 L6.11302357,10.3638015 L8.74445755,10.3638015 L8.74445755,8.08052652 C8.74445755,5.48309875 10.2917003,4.04835998 12.658999,4.04835998 C13.7929244,4.04835998 14.9789319,4.25077798 14.9789319,4.25077798 L14.9789319,6.80124476 L13.6720606,6.80124476 C12.3846416,6.80124476 11.9831455,7.60012788 11.9831455,8.41971836 L11.9831455,10.3638015 L14.8574811,10.3638015 L14.3979923,13.3595879 L11.9831455,13.3595879 L11.9831455,20.6016586 C16.9377107,19.8242116 20.7276031,15.5366745 20.7276031,10.3638015 C20.7276031,4.64002779 16.0875753,0 10.3638015,0" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

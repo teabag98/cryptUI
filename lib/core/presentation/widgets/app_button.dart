@@ -44,8 +44,14 @@ class AppButton extends StatelessWidget {
           children: [
             hasIcon
                 ? UnconstrainedBox(child: SvgPicture.asset(icon ?? ""))
-                : const SizedBox(),
-            AutoSizeText(label ?? ""),
+                : const SizedBox(
+                    width: 0,
+                  ),
+            AutoSizeText(
+              label ?? "",
+              maxFontSize: 20,
+              style: const TextStyle(color: Colors.white),
+            ),
           ]),
     );
   }
