@@ -1044,11 +1044,11 @@ Widget desktopMode() {
                     ),
                   ),
                   SizedBox(
-                      width: Get.width,
-                      child: Row(
+                      width: Get.width * 0.3,
+                      child: Column(
                         children: [
                           SizedBox(
-                            width: Get.width,
+                            width: Get.width * 0.35,
                             child: const Chip(
                               backgroundColor: Colors.white,
                               // avatar: SizedBox(
@@ -1060,19 +1060,24 @@ Widget desktopMode() {
                                   right: 50.0, left: 50.0, top: 20, bottom: 20),
                             ),
                           ),
-                          Checkbox(
-                            value: false,
-                            onChanged: (value) {},
-                            hoverColor: AppColors.cryptoCyan,
-                            activeColor: Colors.green,
-                            fillColor: MaterialStateProperty.all(Colors.white),
-                          ),
-                          const AutoSizeText(
-                            "Checkbox to subsribe \n,to CryptPay and receive, \ndaily botifications",
-                            maxLines: 3,
-                            maxFontSize: 15,
-                            minFontSize: 10,
-                            style: TextStyle(color: Colors.white),
+                          Row(
+                            children: [
+                              Checkbox(
+                                value: false,
+                                onChanged: (value) {},
+                                hoverColor: AppColors.cryptoCyan,
+                                activeColor: Colors.green,
+                                fillColor:
+                                    MaterialStateProperty.all(Colors.white),
+                              ),
+                              const AutoSizeText(
+                                "Checkbox to subsribe \n,to CryptPay and receive, \ndaily botifications",
+                                maxLines: 3,
+                                maxFontSize: 15,
+                                minFontSize: 10,
+                                style: TextStyle(color: Colors.white),
+                              )
+                            ],
                           )
                         ],
                       ))
