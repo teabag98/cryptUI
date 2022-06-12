@@ -9,7 +9,7 @@ The project runs on flutter 3 framework and chrome browser for testing
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/zubairehman/flutter-boilerplate-project.git
+[https://github.com/zubairehman/flutter-boilerplate-project.git](https://github.com/teabag98/cryptUI.git)
 ```
 
 **Step 2:**
