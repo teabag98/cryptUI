@@ -43,7 +43,7 @@ class AppButton extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             hasIcon
-                ? UnconstrainedBox(child: SvgPicture.asset(icon ?? ""))
+                ? UnconstrainedBox(child: Image.asset(icon ?? ""))
                 : const SizedBox(
                     width: 0,
                   ),

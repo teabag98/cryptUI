@@ -4,4 +4,5 @@ class AppImages {
   static String solana = "assets/png/solana.png";
   static String tether = "assets/png/tether.png";
   static String litecoin = "assets/png/litecoin.png";
+  static String ethereum = "assets/png/ethereum.png";
 }
